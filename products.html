@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awuraba Connect - Products</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ff6f61;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h2 {
+      color: #333;
+    }
+    .product-category {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-around;
+      margin-bottom: 40px;
+    }
+    .product-card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      width: 30%;
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.3s ease;
+    }
+    .product-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .product-card:hover {
+      transform: translateY(-10px);
+    }
+    .product-card h3 {
+      color: #ff6f61;
+    }
+    .product-card p {
+      color: #666;
+      font-size: 1rem;
+    }
+    .button {
+      background-color: #ff6f61;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      margin-top: 15px;
+      display: inline-block;
+    }
+    .footer {
+      background-color: #880e4f;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.footer img {
+    padding: 10px;
+}
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Awuraba Connect</h1>
+    <p>Your go-to destination for stylish and high-quality essentials</p>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>Our Products</h2>
+      <p>Explore our wide range of carefully selected products designed to make you feel confident, comfortable, and fabulous.</p>
+
+      <div class="product-category">
+        <div class="product-card">
+          <img src="images/lingerie-image.jpg" alt="Lingerie">
+          <h3>Lingerie</h3>
+          <p>From comfortable cotton to luxurious lace, our lingerie collection is perfect for everyday wear or special occasions.</p>
+        </div>
+
+        <div class="product-card">
+          <img src="images/bags-image.jpg" alt="Bags">
+          <h3>Bags</h3>
+          <p>Trendy, stylish, and functional bags that suit all occasions – whether it’s a casual day out or a glamorous evening event.</p>
+        </div>
+
+        <div class="product-card">
+          <img src="images/pajamas-image.jpg" alt="Pajamas">
+          <h3>Pajamas</h3>
+          <p>Cozy sleepwear that combines comfort and style, ensuring you get a peaceful night's sleep while looking chic.</p> 
+        </div>
+      </div>
+
+      <div class="product-category">
+        <div class="product-card">
+          <img src="images/bodysplash-image.jpg" alt="Body Splash">
+          <h3>Body Splash</h3>
+          <p>Refresh yourself with a light, fragrant body splash. Perfect for a quick pick-me-up during your day.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section>
+      <h2>Why Choose Awuraba Connect?</h2>
+      <p>At Awuraba Connect, we’re committed to offering products that make you feel confident, comfortable, and fabulous. Our carefully curated collections include lingerie, bags, sleepwear, and more, all chosen with love to cater to your every need.</p>
+    </section>
+
+    <section>
+      <h2>Shop Now</h2>
+      <p>Browse our full collection and find your new favorite products. For inquiries or to place an order, reach out to us via Instagram @awuraba_connect.</p>
+    </section>
+  </div>
+
+  <footer class="footer">
+    <p>Follow us on:</p>
+            <a href="https://www.instagram.com/awuraba_connect" target="_blank">
+                <img src="images/instagram-icon.jpg" alt="Instagram" width="30">
+            </a>
+            <a href="https://www.facebook.com/awuraba_connect" target="_blank">
+                <img src="images/facebook-icon.jpg" alt="Facebook" width="30">
+            </a>
+    <p>&copy; 2025 Awuraba Connect. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
